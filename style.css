@@ -3,19 +3,19 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
-background-color: #5666;
+background-color: #333;
 }
 
 li {
 float: left;
-border-right: 10px solid #566;
+border-right: 1px solid #bbb;
 }
 
 li a {
 display: block;
 color: white;
 text-align: center;
-padding: 20px 30px;
+padding: 24px 26px;
 text-decoration: none;
 }
 
@@ -28,16 +28,15 @@ background: #ffcccc;
 /* Chrome 10-25, Safari 5.1-6 */
 background: -webkit-linear-gradient(-45deg, #ffcccc, #00ffff);
 /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background: linear-gradient(-45deg, #ff2333, #0040ff);
+background: linear-gradient(-45deg, #ff233, #0040ff);
 margin: 0;
 padding: 0;
 }
 
 h1 {
-color: #FF6347;
+color: #FFF;
 font-size: 2em;
 padding-top: 100px;
-text-align: center;
 width: 100%;
 }
 
@@ -48,8 +47,8 @@ font-weight: 100;
 font-size: 22px;
 line-height: 24px;
 padding-bottom: 30px;
-text-align: center;
-width: 100%;
+text-align: left;
+width: 70%;
 }
 
 p {
@@ -87,7 +86,7 @@ padding: 40px;
 }
 
 .image {
-background-image: url("https://tse1-mm.cn.bing.net/th/id/OIP-C.nRlAFygdctTCHmIWN7GxRwHaEK?w=333&h=187&c=7&r=0&o=5&dpr=1.25&pid=1.7");
+background-image: url("https://tse2-mm.cn.bing.net/th/id/OIP-C.z6ssCXne43tzB7tBZdOCsAHaFj?w=220&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7");
 background-size: cover;
 background-position: left;
 height: 900px;
@@ -98,5 +97,5 @@ height: 900px;
 -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
 box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
 float: left;
-width: 200px;
+width: 50px;
 }
